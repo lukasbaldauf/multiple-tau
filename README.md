@@ -1,5 +1,5 @@
 # multiple-tau
-A python code for calculating correlation functions on the fly or sequentially. It may be usefull for calculating long correlation functions in molecular dynamics simulations with GROMACS, which is my intended usage. It can be called sequentually from the shell script "gmx_correlate.sh".
+A python code for calculating correlation functions on the fly or sequentially. It may be usefull for calculating stress relaxtion functions in molecular dynamics simulations with GROMACS, which was my intended usage. It can be called sequentually from the shell script "gmx_correlate.sh".
 
 
 The multiple-tau algorithm is described in
