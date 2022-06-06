@@ -1,8 +1,17 @@
+"""
+A multiple-tau algorithm for calculating time correlation functions
+on the fly, as described in 
+J. Chem. Phys. 133, 154103 (2010); http://dx.doi.org/10.1063/1.3491098
+The code is rewritten for Python from the source below
+https://blogs.upm.es/compsoftmatter/software/multiple-tau-correlator/
+"""
+
 import sys
 import numpy as np
 from numba import njit
+
 # usage
-# pytrgon rebuild-mult-tay.py <Temp> <Volume> <Outfile>
+# python rebuild-mult-tay.py <Temperature> <Volume> <Outfile>
 
 
 @njit
